@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
     cors({
-      origin: 'https://react-server-sr-pedro.onrender.com/', // Allow requests only from this origin
+      origin: 'http://localhost:3000', // Allow requests only from this origin
     })
   );
 
