@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(
     cors({
-      origin: 'http://localhost:3000', // Allow requests only from this origin
+      origin: true, // Allow requests only from this origin
     })
   );
 
